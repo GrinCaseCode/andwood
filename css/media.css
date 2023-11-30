@@ -619,17 +619,17 @@
 		z-index: -1;
 	}
 	.footer .logo {
-    margin-top: 0;
-}
-.footer__logo {
-	display: flex;
-	align-items: center;
-	margin-bottom: 15px;
-}
-.footer__logo .logo-descr {
-	margin: 0;
-	margin-left: 10px;
-}
+		margin-top: 0;
+	}
+	.footer__logo {
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+	.footer__logo .logo-descr {
+		margin: 0;
+		margin-left: 10px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -802,6 +802,12 @@
 	}
 	.item-showroom .text-page {
 		font-size: 16px;
+	}
+	.item-showroom .btn-page {
+		padding: 0 30px;
+	}
+	.consultation .title-main {
+		margin-bottom: 14px;
 	}
 }
 
