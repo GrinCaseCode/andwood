@@ -446,7 +446,7 @@ form {
 .slick-dots li {
 	width: 6px;
 	height: 6px;
-	margin: 0 10px;
+	margin: 0 8px;
 }
 .slider-controls_billbord .slick-dots li button {
 	background-color: #fff;
