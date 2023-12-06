@@ -1,9 +1,11 @@
 /*==========  Desktop First Method  ==========*/
-@media only screen and (max-width : 1800px) {
+@media only screen and (max-width: 1800px) {
 	.content-billbord__inner {
 		padding-top: 120px;
 	}
-	.content-billbord__inner, .billbord, .slider-billbord__image {
+	.content-billbord__inner,
+	.billbord,
+	.slider-billbord__image {
 		height: 750px;
 	}
 	.title-billbord {
@@ -32,7 +34,7 @@
 		padding-bottom: 34px;
 	}
 }
-@media only screen and (max-width : 1600px) {
+@media only screen and (max-width: 1600px) {
 	body {
 		font-size: 14px;
 	}
@@ -101,8 +103,8 @@
 		padding: 0 25px;
 		font-size: 14px;
 	}
-	.content-billbord__inner, 
-	.billbord, 
+	.content-billbord__inner,
+	.billbord,
 	.slider-billbord__image {
 		height: 670px;
 		min-height: calc(100vh - 71px);
@@ -128,6 +130,9 @@
 	}
 	.title-main {
 		font-size: 34px;
+	}
+	.title-blog-main {
+		font-size: 28px;
 	}
 	.advantages__right .title-main {
 		margin-bottom: 22px;
@@ -155,7 +160,8 @@
 		padding: 20px 15px;
 		font-size: 16px;
 	}
-	.row_showrooms > div, .row_portfolio > div {
+	.row_showrooms > div,
+	.row_portfolio > div {
 		margin-bottom: 16px;
 	}
 	.video-main {
@@ -214,7 +220,7 @@
 		max-width: 260px;
 	}
 	.slider-etaps {
-		margin-right: calc((100vw - 1157px) / 2* -1);
+		margin-right: calc((100vw - 1157px) / 2 * -1);
 	}
 	.etaps {
 		padding-top: 44px;
@@ -300,15 +306,28 @@
 	.slider-showrooms {
 		margin: 0 -8px;
 	}
+	.consultation.consultation_page .consultation__image {
+		padding-right: 30px;
+	}
+	.consultation.consultation_page .text-small {
+		margin-bottom: 20px;
+	}
+	.consultation .title-main {
+		margin-bottom: 15px;
+	}
+	.pay-delivery {
+		padding-bottom: 45px;
+	}
 }
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width: 1200px) {
 	.row .advantages__right {
 		padding-left: 15px;
 	}
 	.title-main {
 		font-size: 29px;
 	}
+
 	.text-page {
 		font-size: 14px;
 	}
@@ -369,7 +388,9 @@
 		max-width: 344px;
 		letter-spacing: 0.5px;
 	}
-	.content-billbord__inner, .billbord, .slider-billbord__image {
+	.content-billbord__inner,
+	.billbord,
+	.slider-billbord__image {
 		height: 560px;
 		min-height: calc(100vh - 61px);
 	}
@@ -384,7 +405,7 @@
 		max-width: 200px;
 	}
 	.slider-etaps {
-		margin-right: calc((100vw - 884px) / 2* -1);
+		margin-right: calc((100vw - 884px) / 2 * -1);
 	}
 	.slider-etaps .slick-slide {
 		width: 265px;
@@ -412,10 +433,31 @@
 	.wrapper {
 		padding-top: 61px;
 	}
+	.blog.blog_page .title-main {
+		margin-bottom: 25px;
+	}
+	.blog h2 {
+		margin-bottom: 18px;
+	}
+	.blog.blog_page p {
+		margin-bottom: 20px;
+	}
+	.blog ul li {
+		margin-bottom: 10px;
+	}
+	.blog .col-md-8 img {
+		margin-bottom: 41px;
+	}
+	.line-contact a {
+		font-size: 16px;
+	}
+	.line-contact {
+		margin-bottom: 34px;
+	}
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width: 992px) {
 	.header__wrapper .list-social,
 	.header__wrapper .btn-header,
 	.header__wrapper .menu {
@@ -484,7 +526,7 @@
 		margin-bottom: 20px;
 	}
 	.slider-etaps {
-		margin-right: calc((100vw - 695px) / 2* -1);
+		margin-right: calc((100vw - 695px) / 2 * -1);
 	}
 	.etaps {
 		padding-top: 39px;
@@ -630,14 +672,61 @@
 		margin: 0;
 		margin-left: 10px;
 	}
+	.pay-delivery .title-main {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.pay-delivery .title-section {
+		padding-bottom: 10px;
+	}
+	.pay-delivery {
+		padding-top: 35px;
+		padding-bottom: 40px;
+	}
+	.consultation.consultation_page .consultation__image {
+		padding-right: 0;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+	.consultation.consultation_page .item-form {
+		margin-bottom: 20px;
+	}
+	.blog {
+		padding-bottom: 27px;
+	}
+	.blog h2 {
+		font-size: 24px;
+	}
+	.blog.blog_page .title-main {
+		margin-bottom: 20px;
+	}
+	.blog .col-md-8 img {
+		margin-bottom: 21px;
+	}
+	.blog .col-12 img {
+		margin-bottom: 24px;
+	}
+	.contacts {
+		padding-top: 43px;
+		padding-bottom: 42px;
+	}
+	.offset-md-1 {
+		margin-left: 0;
+		max-width: 100%;
+	}
+	.news.news_page .news__image img {
+		margin-bottom: 30px;
+	}
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
 	.wrap-billbord {
 		display: none;
 	}
-	.content-billbord__inner, .billbord, .slider-billbord__image {
+	.content-billbord__inner,
+	.billbord,
+	.slider-billbord__image {
 		height: 550px;
 		min-height: initial;
 	}
@@ -707,7 +796,7 @@
 		top: 0;
 		left: 0;
 		opacity: 0.7;
-		background: linear-gradient(90deg, #000 0.37%, rgba(0, 0, 0, 0.00) 99.7%);
+		background: linear-gradient(90deg, #000 0.37%, rgba(0, 0, 0, 0) 99.7%);
 	}
 	.slider-video .slick-arrow {
 		bottom: -5px;
@@ -736,10 +825,33 @@
 	.item-showroom .text-page {
 		font-size: 15px;
 	}
+	.breadcrumb {
+		padding-top: 11px;
+		padding-bottom: 10px;
+	}
+	.blog {
+		padding-bottom: 15px;
+	}
+	.blog h2 {
+		font-size: 20px;
+	}
+	.blog.blog_page .title-main {
+		margin-bottom: 10px;
+	}
+	.line-contact {
+		margin-bottom: 14px;
+	}
+	.contacts.contacts_page .contacts-block p {
+		margin-bottom: 12px;
+	}
+	.contacts {
+		padding-top: 23px;
+		padding-bottom: 22px;
+	}
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
 	.row > div {
 		padding: 0 4px;
 	}
@@ -750,7 +862,8 @@
 		padding: 13px 10px;
 		font-size: 14px;
 	}
-	.row_showrooms > div, .row_portfolio > div {
+	.row_showrooms > div,
+	.row_portfolio > div {
 		margin-bottom: 8px;
 	}
 	.item-portfolio {
@@ -779,7 +892,9 @@
 		max-width: 305px;
 		letter-spacing: 0.2px;
 	}
-	.content-billbord__inner, .billbord, .slider-billbord__image {
+	.content-billbord__inner,
+	.billbord,
+	.slider-billbord__image {
 		height: 520px;
 	}
 	.consultation {
@@ -808,42 +923,36 @@
 	}
 	.consultation .title-main {
 		margin-bottom: 14px;
-	} 
+	}
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
+@media only screen and (max-width: 320px) {
 }
-
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
+@media only screen and (min-width: 320px) {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
+@media only screen and (min-width: 480px) {
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
+@media only screen and (min-width: 768px) {
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width: 992px) {
 	.menu-overlay {
 		display: none !important;
 	}
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
+@media only screen and (min-width: 1200px) {
 }
 @media (min-width: 1600px) {
 	.container {
