@@ -1194,6 +1194,7 @@ form {
 .news__image {
 	margin-right: -30px;
 	display: block;
+	overflow: hidden;
 }
 .news__image img {
 	transition: all 1s;
@@ -1240,9 +1241,12 @@ form {
 	background-color: #f5f5f5;
 }
 .page-numbers {
-	display: inline-block;
-	padding: 13px 20px;
+	width: 46px;
+	height: 46px;
 	margin: 0 7px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 50%;
 	text-decoration: none;
 	color: #000;
