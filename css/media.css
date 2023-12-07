@@ -318,6 +318,14 @@
 	.pay-delivery {
 		padding-bottom: 45px;
 	}
+
+	.item-news .col-lg-7 {
+		padding-left: 70px;
+		padding-right: 80px;
+	}
+	.item-news .title-main {
+		margin-bottom: 25px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -453,6 +461,19 @@
 	}
 	.line-contact {
 		margin-bottom: 34px;
+	}
+	.contacts-block {
+		padding: 15px 10px 15px 30px;
+	}
+	.item-news .col-lg-7 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.item-news .title-main {
+		margin-bottom: 17px;
+	}
+	.item-news {
+		margin-bottom: 35px;
 	}
 }
 
@@ -717,6 +738,40 @@
 	.news.news_page .news__image img {
 		margin-bottom: 30px;
 	}
+	.contacts-block {
+		padding: 15px 10px;
+	}
+	.news__image {
+		margin-bottom: 20px;
+	}
+	.item-news .col-lg-7 {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.news__image,
+	.item-news:nth-child(odd) .news__image {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.item-news:nth-child(odd) .col-lg-5 {
+		order: -1;
+	}
+	.news {
+		padding-top: 30px;
+		padding-bottom: 35px;
+	}
+	.item-news {
+		margin-bottom: 25px;
+	}
+	.pager {
+		margin-top: 45px;
+	}
+	.pager .prev.page-numbers {
+		margin-right: 80px;
+	}
+	.pager .next.page-numbers {
+		margin-left: 80px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -841,12 +896,23 @@
 	.line-contact {
 		margin-bottom: 14px;
 	}
+	.line-contact:first-child {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
 	.contacts.contacts_page .contacts-block p {
 		margin-bottom: 12px;
 	}
 	.contacts {
 		padding-top: 23px;
 		padding-bottom: 22px;
+	}
+
+	.pager .prev.page-numbers {
+		margin-right: 50px;
+	}
+	.pager .next.page-numbers {
+		margin-left: 50px;
 	}
 }
 
@@ -923,6 +989,26 @@
 	}
 	.consultation .title-main {
 		margin-bottom: 14px;
+	}
+	.pager {
+		margin-top: 25px;
+	}
+	.pager .prev.page-numbers {
+		margin-right: 10px;
+	}
+	.pager .next.page-numbers {
+		margin-left: 10px;
+	}
+	.page-numbers,
+	.dots {
+		font-size: 10px;
+	}
+	.page-numbers {
+		display: inline-block;
+		padding: 8px 12px;
+		margin: 0 3px;
+		border-radius: 50%;
+		text-decoration: none;
 	}
 }
 

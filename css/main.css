@@ -1134,7 +1134,11 @@ form {
 }
 .contacts-block {
 	border: 1px solid #d9d9d9;
-	padding: 15px 10px;
+	border-bottom: none;
+	padding: 15px 10px 15px 50px;
+}
+.contacts-block:last-child {
+	border-bottom: 1px solid #d9d9d9;
 }
 .contacts-block p a {
 	color: inherit;
@@ -1143,17 +1147,14 @@ form {
 	line-height: 200%;
 	margin-bottom: 32px;
 }
-
-.contacts.contacts_page .contacts-block img {
-	max-width: 100%;
-}
-.contacts.contacts_page .contacts-block:nth-child(2),
-.contacts.contacts_page .contacts-block:nth-child(3) {
-	border-top: 1px solid #d9d9d9;
-	border-bottom: 0px solid #d9d9d9;
-}
 .line-contact {
-	margin-bottom: 64px;
+	padding-top: 24px;
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+}
+.line-contact:first-child {
+	padding-top: 9px;
+	padding-bottom: 5px;
 }
 .line-contact a {
 	color: inherit;
@@ -1165,18 +1166,101 @@ form {
 	flex-wrap: wrap;
 	gap: 13px;
 }
-
+.map-contacts {
+	height: 333px;
+	max-width: 100%;
+	background-color: #e5edec;
+}
 /* -------------news- */
+
 .news {
 	padding-top: 43px;
-	padding-bottom: 70px;
-}
-.news.news_page .row {
-	margin-bottom: 40px;
+	padding-bottom: 65px;
 }
 .news__image img {
 	max-width: 100%;
 }
-.news.news_page .title-main {
+.item-news:nth-child(odd) .col-lg-5 {
+	order: 2;
+}
+.item-news .row {
+	align-items: center;
+	margin-bottom: 0;
+}
+.item-news .col-lg-7 {
+	padding-left: 90px;
+	padding-right: 115px;
+}
+.news__image {
+	margin-right: -30px;
+	display: block;
+}
+.news__image img {
+	transition: all 1s;
+}
+.news__image :hover {
+	transform: scale(1.1);
+}
+.item-news:nth-child(odd) .news__image {
+	margin-left: -30px;
+	margin-right: 0;
+}
+.item-news .title-main {
 	margin-bottom: 43px;
+	color: #000;
+	display: block;
+}
+.item-news .title-main:hover {
+	color: #8d0300;
+}
+.item-news {
+	margin-bottom: 50px;
+}
+/* ---------------pager--- */
+.pager {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 75px;
+}
+.pager .prev.page-numbers {
+	margin-right: 173px;
+}
+.pager .next.page-numbers {
+	margin-left: 173px;
+}
+.page-numbers,
+.dots {
+	font-family: "Inter";
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 140%;
+}
+.special {
+	background-color: #f5f5f5;
+}
+.page-numbers {
+	display: inline-block;
+	padding: 13px 20px;
+	margin: 0 7px;
+	border-radius: 50%;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.4s;
+	cursor: pointer;
+}
+.page-numbers:hover {
+	color: #ff0000;
+}
+.page-numbers.current {
+	background-color: #868585;
+	color: #fff;
+}
+.dots {
+	background: none;
+}
+.prev.page-numbers i,
+.next.page-numbers i {
+	font-size: 22px;
+	font-weight: 400;
 }
