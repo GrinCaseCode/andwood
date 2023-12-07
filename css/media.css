@@ -735,9 +735,6 @@
 		margin-left: 0;
 		max-width: 100%;
 	}
-	.news.news_page .news__image img {
-		margin-bottom: 30px;
-	}
 	.contacts-block {
 		padding: 15px 10px;
 	}
@@ -771,6 +768,10 @@
 	}
 	.pager .next.page-numbers {
 		margin-left: 80px;
+	}
+
+	.news.news_page .news__image img {
+		margin-bottom: 0px;
 	}
 }
 
