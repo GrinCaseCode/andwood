@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	
-	<title>Новости</title>
+	<title>Document</title>
 
 	<meta name="format-detection" content="telephone=no" />
 	<link rel="shortcut icon" href="favicon.png" />
@@ -20,11 +19,10 @@
 	<link rel="stylesheet" href="css/media.css?ver=1.1" />
 
 </head>
-
 <body>
 	
 	<div class="wrapper wrapper_page">
-
+		
 		<header class="header">
 			<div class="container">
 				<div class="header__wrapper">
@@ -99,84 +97,49 @@
 			<div class="menu-overlay"></div>
 		</header>
 
-		<section class="news news_page">
+		<div class="breadcrumbs">
 			<div class="container">
-				<h2 class="title-section">Новости</h2>
-				
-				<div class="item-news">
+				<nav aria-label="breadcrumb">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Главная</a></li>
+						<li class="breadcrumb-item active" aria-current="page">Избранное</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<section class="favorites favorites_page">
+			<div class="container">
+				<h2 class="title-section">избранное</h2>
+				<h1 class="title-main">Избранные товары</h1>
+				<div class="favorit-header">
+					<div class="favorit-category">Вы добавили: 1 товар</div>
+					<a href="#" class="favorit-link">Очистить список</a>
+				</div>
+				<div class="favorit-item">
 					<div class="row">
 						<div class="col-lg-5">
-							<a href="#" class="news__image">
-								<img src="img/news/light-table.jpg" alt="Table">
+							<a href="#" class="card__img">
+								<img src="img/favorites/favorit-01.jpg" alt="Сouch">
 							</a>
 						</div>
-						<div class="col-lg-7">
-							<a href="#" class="title-main">Какая должна быть высота кухонного стола?</a>
-							<p>
-								Обеденный стол – это главное место притяжения на кухне или в обеденной зоне, который зачастую мы используем не только за приемами пищи, но и часто в качестве рабочего пространства, если не хотим или не имеем возможности организовать дома кабинет...
-							</p>
+						<div class="col-lg-7 favorit-item__right">
+							<h3 class="card-title">Комо Дымчато-серый шенилл <br>Lounge</h3>
+							<span class="card-indicator" style="background: #708090;"></span>
+							<div class="card-text">На заказ</div>
+							<div class="favorit-item__buttons">
+								<a href="#" class="btn-main">Заказать</a>
+								<a href="#" class="btn-remove">
+									<img src="img/basket.svg" alt="basket">
+								</a>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="item-news">
-					<div class="row">
-						<div class="col-lg-5">
-							<a href="#" class="news__image">
-								<img src="img/news/dark-table.jpg" alt="Table">
-							</a>
-						</div>
-						<div class="col-lg-7">
-							<a href="#" class="title-main">Как выбрать цвет стола <br>на кухню</a>
-							<p>
-								В интерьере кухни, как и в любом другом интерьере, большое внимание уделяется цветовой гамме. Окружающий нас цвет влияет на многие биологические процессы, в том числе и на аппетит. Создавая интерьер кухни, мы выбираем не только цвет обоев и фасадов, но также и цвет мебели...
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item-news">
-					<div class="row">
-						<div class="col-lg-5">
-							<a href="#" class="news__image">
-								<img src="img/news/light-table.jpg" alt="Table">
-							</a>
-						</div>
-						<div class="col-lg-7">
-							<a href="#" class="title-main">Какая должна быть высота кухонного стола?</a>
-							<p>
-								Обеденный стол – это главное место притяжения на кухне или в обеденной зоне, который зачастую мы используем не только за приемами пищи, но и часто в качестве рабочего пространства, если не хотим или не имеем возможности организовать дома кабинет...
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item-news">
-					<div class="row">
-						<div class="col-lg-5">
-							<a href="#" class="news__image">
-								<img src="img/news/dark-table.jpg" alt="Table">
-							</a>
-						</div>
-						<div class="col-lg-7">
-							<a href="#" class="title-main">Как выбрать цвет стола <br>на кухню</a>
-							<p>
-								В интерьере кухни, как и в любом другом интерьере, большое внимание уделяется цветовой гамме. Окружающий нас цвет влияет на многие биологические процессы, в том числе и на аппетит. Создавая интерьер кухни, мы выбираем не только цвет обоев и фасадов, но также и цвет мебели...
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="pager">
-					<a class="prev page-numbers" href="#"><i class="fas fa-chevron-left"></i></a>
-					<span aria-current="page" class="page-numbers current" href="#">1</span> 
-					<a class="page-numbers special" href="#">2</a> 
-					<a class="page-numbers special" href="#">3</a> 
-					<span class="page-numbers dots" href="#">...</span> 
-					<a class="page-numbers special" href="#">10</a> 
-					<a class="next page-numbers" href="#"><i class="fas fa-chevron-right"></i></a>
 				</div>
 				
 			</div>
 		</section>
-
-
+		
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
@@ -244,7 +207,7 @@
 			</div>
 		</footer>
 	</div>
-
+	
 	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
@@ -254,6 +217,5 @@
 	<script src="libs/modal-video/jquery-modal-video.min.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 	<script src="js/common.js?ver=1.1"></script>
-
 </body>
 </html>

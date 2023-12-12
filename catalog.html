@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/modal-video/modal-video.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper wrapper_page">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__wrapper">
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<ul class="menu">
+						<li class="menu_catalog"><a href="#">Кухни на заказ</a></li>
+						<li class="menu_catalog"><a href="#">Диваны</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Материалы</a></li>
+						<li><a href="#">Наши работы</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Оплата и доставка</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+					<div class="header__buttons">
+						<a href="#" class="btn-header">
+							<img src="img/heart.svg" alt="alt">
+							<span class="btn-header__value">1</span>
+						</a>
+						<ul class="list-social">
+							<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+							<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+						</ul>
+						<a href="tel:+88007002478" class="phone-main">8 (800) 700-24-78</a>
+						<a href="tel:+88007002478" class="btn-call"><i class="fas fa-phone-alt"></i></a>
+					</div>
+					<div class="menu-dropdown">
+						<ul class="list-dropdown hidden-mobile">
+							<li><a href="#">Кухни на заказ</a></li>
+							<li><a href="#">Диваны</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">Материалы</a></li>
+							<li><a href="#">Наши работы</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Оплата и доставка</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+						<div class="menu-dropdown__mobile">
+							<ul class="menu">
+								<li class="menu_catalog"><a href="#">Кухни на заказ</a></li>
+								<li class="menu_catalog"><a href="#">Диваны</a></li>
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Материалы</a></li>
+								<li><a href="#">Наши работы</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Оплата и доставка</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+							<div class="header__buttons">
+								<a href="#" class="btn-header">
+									<img src="img/heart.svg" alt="alt">
+									<span class="btn-header__value">1</span>
+								</a>
+								<ul class="list-social">
+									<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+									<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+								</ul>
+								<a href="tel:+88007002478" class="phone-main">8 (800) 700-24-78</a>
+								<a href="tel:+88007002478" class="btn-call"><i class="fas fa-phone-alt"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="page-catalog">
+			<div class="catalog-top">
+				<div class="container">
+					<h1 class="title-section">каталог</h1>
+					<ul class="tabs-catalog">
+						<li><a href="#">Все изделия</a></li>
+						<li><a href="#">Кухни</a></li>
+						<li class="active"><a href="#">Диваны</a></li>
+						<li><a href="#">Кровати</a></li>
+						<li><a href="#">Шкафы</a></li>
+						<li><a href="#">Стулья</a></li>
+					</ul>
+					<div class="catalog-line">
+						<div class="filter-wrap">
+							<a href="#" class="btn-filter"><i class="far fa-filter"></i>Все фильтры <i class="far fa-times-circle"></i></a>
+							<div class="filter-catalog">
+								<div class="filter-catalog__content">
+									<div class="item-filter">
+										<div class="item-filter__head">Диваны <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content">
+											<div class="list-filter">
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>шенилл</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>велюр</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>нубук</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>экокожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>кожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>рогожка</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>искусственный мех</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>букле</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-filter">
+										<div class="item-filter__head">Легкая чистка <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content">
+											<div class="list-filter">
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>шенилл</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>велюр</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>нубук</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>экокожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>кожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>рогожка</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>искусственный мех</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>букле</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-filter active">
+										<div class="item-filter__head">Тип материала <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content" style="display: block;">
+											<div class="list-filter">
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>шенилл</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>велюр</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>нубук</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>экокожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>кожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>рогожка</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>искусственный мех</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>букле</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-filter">
+										<div class="item-filter__head">Стиль <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content">
+											<div class="list-filter">
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>шенилл</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>велюр</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>нубук</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>экокожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>кожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>рогожка</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>искусственный мех</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>букле</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-filter">
+										<div class="item-filter__head">Глубина <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content">
+											<div class="list-filter">
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>шенилл</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>велюр</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>нубук</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>экокожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>кожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>рогожка</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>искусственный мех</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>букле</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-filter">
+										<div class="item-filter__head">Ширина <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content">
+											<div class="list-filter">
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>шенилл</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>велюр</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>нубук</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>экокожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>кожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>рогожка</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>искусственный мех</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>букле</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-filter">
+										<div class="item-filter__head">Высота <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content">
+											<div class="list-filter">
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>шенилл</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>велюр</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>нубук</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>экокожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>кожа</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>рогожка</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>искусственный мех</span>
+													</label>
+												</div>
+												<div class="item-check">
+													<label>
+														<input type="checkbox"/>
+														<span>букле</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item-filter active">
+										<div class="item-filter__head">Цвет <i class="fal fa-plus"></i></div>
+										<div class="item-filter__content" style="display: block;">
+											<div class="list-colors">
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #DEB887;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #fff;border: 1px solid #D9D9D9;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #556B2F;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #006400;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #6A5C59;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #E6E6FA;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #4682B4;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #A4C5B2;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #1E90FF;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #000;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #DDCFC4;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #FFE41B;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #BC8F8F;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #DCDCDC;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #708090;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #000080;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #8D6587;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #B3663A;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #FFC0CB;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #722F37;"></span>
+													</label>
+												</div>
+												<div class="item-color">
+													<label>
+														<input type="checkbox"/>
+														<span style="background: #6A5C59;"></span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="buttons-filter">
+									<button class="btn-main">Применить</button>
+									<button class="btn-main btn-main_transparent">Сбросить</button>
+								</div>
+							</div>
+						</div>
+						<div class="item-select">
+							<select>
+								<option value="1">Все диваны</option>
+								<option value="1">Модульные диваны</option>
+								<option value="1">Прямые диваны</option>
+								<option value="1">Угловые диваны</option>
+							</select>
+						</div>
+						<div class="item-select">
+							<select>
+								<option value="1">Сортировать</option>
+								<option value="1">По дате</option>
+								<option value="1">По цене</option>
+								<option value="1">По алфавиту</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row row_catalog">
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Тронхейм»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Стоун»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Кассель»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Кассель»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Тронхейм»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Стоун»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Тронхейм»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Стоун»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="item-catalog">
+							<a href="#" class="btn-like"><i class="far fa-heart"></i></a>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</a>
+							<a href="#" class="item-catalog__title">Прямой диван «Кассель»</a>
+							<a href="#" class="link-page">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="pager">
+					<a class="prev page-numbers" href="#"><i class="fas fa-chevron-left"></i></a>
+					<span aria-current="page" class="page-numbers current" href="#">1</span> 
+					<a class="page-numbers special" href="#">2</a> 
+					<a class="page-numbers special" href="#">3</a> 
+					<span class="page-numbers dots" href="#">...</span> 
+					<a class="page-numbers special" href="#">10</a> 
+					<a class="next page-numbers" href="#"><i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Мебель на заказ в Симферополе. Изготовление по индивидуальным проектам. </div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="footer__item">
+							<ul class="footer__nav">
+								<li><a href="#">Кухни на заказ</a></li>
+								<li><a href="#">Диваны</a></li>
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Материалы</a></li>
+								<li><a href="#">Наши работы</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Оплата и доставка</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__item">
+							<div class="footer__title">Адрес:</div>
+							<div class="footer__content">
+								<p>Крым, г. Симферополь, ул. Кубанская, 25Б</p>
+								<p>ТЦ «УютСтрой»,  ул. Проспект Победы, 245, 2 этаж </p>
+								<p>ТЦ «УютСтрой»,  ул. Объездная дорога, 20, 2 этаж </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="line-contacts">
+							<a href="tel:+88007002478" class="phone-main">8 (800) 700-24-78</a>
+							<ul class="list-social">
+								<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+								<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+							</ul>
+						</div>
+						<p><strong>Режим работы:</strong> <br>пн-пт: с 9:00 до 17:00</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg col-7">
+							<a href="#">Политика конфиденциальности </a>
+						</div>
+						<div class="col-lg-2 col-5">
+							<p>© Copyright  2023 г.</p>
+						</div>
+						<div class="col-lg col-6">
+							<div class="create">Сделано в <a href="#"><img src="img/copy.svg" alt="alt"></a></div>
+						</div>
+						<div class="col-xl-4 col-lg col-6">
+							<a href="#" class="btn_top"><i class="far fa-arrow-up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/modal-video/jquery-modal-video.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.1"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
