@@ -1,23 +1,24 @@
 $(document).ready(function () {
+	
+$(".btn-filter").click(function(e) {
+	e.preventDefault();
+		$(".filter-wrap").toggleClass("active");
+		$(".filter-catalog").slideToggle(200);
+	});
 
-	$(".btn-filter").click(function(e) {
-		e.preventDefault();
-			$(".filter-wrap").toggleClass("active");
-			$(".filter-catalog").slideToggle(200);
-		});
-	
-	$(".btn-like").click(function(e) {
-		e.preventDefault();
-			$(this).toggleClass("active");
-		});
-	
-		$(".item-filter__head").click(function() {
-			$(this).parent().toggleClass("active");
-			$(this).siblings().slideToggle(200);
-			$(this).parent().siblings(".item-filter").removeClass("active");
-			$(this).parent().siblings(".item-filter").find(".item-filter__content").slideUp(200);
-		  });
-	
+$(".btn-like").click(function(e) {
+	e.preventDefault();
+		$(this).toggleClass("active");
+	});
+
+	$(".item-filter__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-filter").removeClass("active");
+		$(this).parent().siblings(".item-filter").find(".item-filter__content").slideUp(200);
+	  });
+
+
 
 	//прилипающие меню
 	var $menu = $(".header");
@@ -332,6 +333,7 @@ $(document).ready(function () {
 
 	}
 });
+
 
 
 /*polifyl*/

@@ -338,100 +338,112 @@
 	.slider-controls_production {
 		margin-top: 40px;
 	}
-		/*catalog*/
-		.item-catalog__image {
-			height: 210px;
-			margin-bottom: 17px;
+	.card__img {
+		margin-right: 60px;
+	}
+	.card-title {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.card-text {
+		font-size: 16px;
+	}
+	.card-indicator {
+		margin-bottom: 25px;
+	}
+	.favorit-item__buttons .btn-main {
+		min-width: 215px;
+		height: 55px;
+	}
+	.product__img {
+		margin-right: 15px;
+	}
+	.card-description {
+		font-size: 16px;
+	}
+	/*catalog*/
+	.item-catalog__image {
+		height: 210px;
+		margin-bottom: 17px;
+	}
+	.link-page {
+		font-size: 13px;
 		}
-		.link-page {
-			font-size: 13px;
-			}
-			.row_catalog > div {
-			margin-bottom: 30px;
+		.row_catalog > div {
+		margin-bottom: 30px;
+	}
+	.tabs-catalog a {
+		padding-bottom: 4px;
 		}
-		.tabs-catalog a {
-			padding-bottom: 4px;
-			}
-			.tabs-catalog {
-			font-size: 20px;
+		.tabs-catalog {
+		font-size: 20px;
+	}
+	.catalog-line {
+		margin-top: 30px;
 		}
-		.catalog-line {
-			margin-top: 30px;
-			}
-			.btn-filter {
-			font-size: 16px;
-			padding: 0 30px;
-			height: 45px;
+		.btn-filter {
+		font-size: 16px;
+		padding: 0 30px;
+		height: 45px;
+	}
+	.item-select .jq-selectbox__select-text {
+		font-size: 16px;
+		padding-right: 23px;
+		height: 45px;
 		}
-		.item-select .jq-selectbox__select-text {
-			font-size: 16px;
-			padding-right: 23px;
-			height: 45px;
-			}
-			.catalog-line .item-select {
-			margin-right: 30px;
-			width: 260px;
+		.catalog-line .item-select {
+		margin-right: 30px;
+		width: 260px;
+	}
+	.filter-wrap {
+		margin-right: 28px;
 		}
-		.filter-wrap {
-			margin-right: 28px;
-			}
-			.item-select .jq-selectbox__dropdown li {
-			font-size: 14px;
-			padding: 8px 18px;
+		.item-select .jq-selectbox__dropdown li {
+		font-size: 14px;
+		padding: 8px 18px;
+	}
+	.filter-wrap.active {
+		width: 390px;
+	}
+	.item-filter__head {
+		font-size: 16px;
+		padding: 16px 20px;
+	}
+	.btn-filter i.fa-times-circle {
+		font-size: 20px;
+		top: 12px;
 		}
-		.filter-wrap.active {
-			width: 390px;
-		}
-		.item-filter__head {
-			font-size: 16px;
-			padding: 16px 20px;
-		}
-		.btn-filter i.fa-times-circle {
-			font-size: 20px;
-			top: 12px;
-			}
-			.item-filter__content {
-			padding: 0 18px;
-			padding-right: 10px;
-			padding-bottom: 16px;
-		}
-		.item-check {
-			margin-right: 6px;
-			margin-bottom: 6px;
-		}
-		.item-check label > span {
-			font-size: 14px;
-			padding: 3px 9px;
-		}
-		.pager .prev.page-numbers {
-			margin-right: 135px;
-		}
-		.pager .next.page-numbers {
-			margin-left: 135px;
-		}
-		.production .slider-controls .slick-dots {
-			margin: 0 175px;
-		}
-		.slider-video .slick-arrow {
-			top: 190px;
-		}
-		.card__img {
-			margin-right: 60px;
-		}
-		.card-title {
-			font-size: 18px;
-			margin-bottom: 20px;
-		}
-		.card-text {
-			font-size: 16px;
-		}
-		.card-indicator{ 
-			margin-bottom: 25px;
-		}
-		.favorit-item__buttons .btn-main {
-			min-width: 215px;
-			height: 55px;
-		}
+		.item-filter__content {
+		padding: 0 18px;
+		padding-right: 10px;
+		padding-bottom: 16px;
+	}
+	.item-check {
+		margin-right: 6px;
+		margin-bottom: 6px;
+	}
+	.item-check label > span {
+		font-size: 14px;
+		padding: 3px 9px;
+	}
+	.card-value {
+		margin-bottom: 23px;
+	}
+	.product-item__right .text {
+		font-size: 13px;
+		line-height: 145%;
+		margin-bottom: 16px;
+	}
+	.title-page {
+		font-size: 29px;
+	}
+	.color-list {
+		margin-bottom: 20px;
+	}
+	.card-subtitle {
+		font-size: 15px;
+		margin-bottom: 4px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -615,6 +627,16 @@
 	}
 	.row .favorit-item__right {
 		padding-left: 10px;
+	}
+	.product-item__right .text {
+		font-size: 12px;
+		line-height: 140%;
+	}
+	.card-value {
+		margin-bottom: 15px;
+	}
+	.title-page {
+		font-size: 25px;
 	}
 }
 
@@ -954,8 +976,26 @@
 		border-radius: 50%;
 		margin-bottom: 22px;
 	}
+	.card-text {
+		margin-bottom: 20px;
+	}
 	.button-card {
 		padding: 15px 70px;
+	}
+	.card-value {
+		margin-bottom: 20px;
+	}
+	.card-subtitle {
+		margin-top: 16px;
+	}
+	.product h2 {
+		font-size: 24px;
+	}
+	.product__img {
+		margin-bottom: 0px;
+	}
+	.product-item__buttons {
+		margin-bottom: 15px;
 	}
 	
 	/*catalog*/
@@ -980,17 +1020,27 @@
 	.tabs-catalog {
 		font-size: 17px;
 	}
-	.row .favorit-item__right {
-		padding-left: 8px;
+	.product__img {
+		width: 33.333%;
+		margin: 0;
+		padding: 3px;
 	}
-	.favorit-item__buttons {
-		padding-top: 20px;
+	.product__img-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
-	.favorit-item {
-		padding-bottom: 30px;
+	.product_page {
+		padding-bottom: 40px;
 	}
-	.page-catalog .pager {
-		margin-top: 20px;
+	.product-item__right .text {
+		font-size: 13px;
+	}
+	.title-page {
+		font-size: 24px;
+	}
+	.breadcrumb-item:not(:last-child)::after {
+		margin: 0 8px;
 	}
 }
 /* Small Devices, Tablets */
@@ -1176,6 +1226,49 @@
 		font-weight: 400;
 		line-height: 120%;
 	}
+	.product h2 {
+		font-size: 20px;
+	}
+	.product-item {
+		margin-bottom: 16px;
+	}
+	.product-item__right .text {
+		margin-bottom: 20px;
+	}
+	.card-subtitle,
+	.card-description {
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 120%;
+	}
+	.card-value {
+		line-height: 120%;
+		margin-bottom: 20px;
+	}
+
+	/*catalog*/
+	.tabs-catalog {
+		font-size: 16px;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.tabs-catalog li {
+		width: 33.333%;
+		margin-bottom: 5px;
+	}
+	.catalog-line .item-select {
+		margin: 0;
+		width: 100%;
+	}
+	.btn-filter {
+		width: 100%;
+	}
+	.btn-filter i.fa-times-circle {
+		display: none;
+	}
+	.buttons-filter {
+		padding: 20px;
+	}
 	
 	/*catalog*/
 	.tabs-catalog {
@@ -1201,7 +1294,6 @@
 		padding: 20px;
 	}
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 	.row > div {
@@ -1310,10 +1402,14 @@
 	.slider-production__item {
 		height: 227px;
 	}
+
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
+	.product__img {
+		width: 50%;
+	}
 }
 
 /*==========  Mobile First Method  ==========*/
