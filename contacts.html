@@ -318,6 +318,84 @@
 
 	<script>
 	
+$(document).ready(function () {
+	ymaps.ready(init);
+
+	function init() {
+		var myMap = new ymaps.Map('map-contact1', {
+			center: [44.970507, 34.153081],
+			zoom: 16
+		}, {
+			searchControlProvider: 'yandex#search'
+		});
+
+		myPlacemark1 = new ymaps.Placemark([44.970507, 34.153081], {
+		}, {
+			iconLayout: 'default#image',
+			iconImageHref: 'img/pin.svg',
+			hideIconOnBalloonOpen: false,
+			iconImageSize: [24, 24],
+			iconImageOffset: [-12, -24],
+			balloonOffset: [0, -24]
+		});
+		myMap.controls.remove('searchControl');
+		myMap.behaviors.disable('scrollZoom');
+		myMap.geoObjects.add(myPlacemark1);
+
+	}
+});
+$(document).ready(function () {
+	ymaps.ready(init);
+
+	function init() {
+		var myMap = new ymaps.Map('map-contact2', {
+			center: [44.982684, 34.150233],
+			zoom: 16
+		}, {
+			searchControlProvider: 'yandex#search'
+		});
+
+		myPlacemark1 = new ymaps.Placemark([44.982684, 34.150233], {
+		}, {
+			iconLayout: 'default#image',
+			iconImageHref: 'img/pin.svg',
+			hideIconOnBalloonOpen: false,
+			iconImageSize: [24, 24],
+			iconImageOffset: [-12, -24],
+			balloonOffset: [0, -24]
+		});
+		myMap.controls.remove('searchControl');
+		myMap.behaviors.disable('scrollZoom');
+		myMap.geoObjects.add(myPlacemark1);
+
+	}
+});
+$(document).ready(function () {
+	ymaps.ready(init);
+
+	function init() {
+		var myMap = new ymaps.Map('map-contact3', {
+			center: [44.985622, 34.133181],
+			zoom: 16
+		}, {
+			searchControlProvider: 'yandex#search'
+		});
+
+		myPlacemark1 = new ymaps.Placemark([44.985622, 34.133181], {
+		}, {
+			iconLayout: 'default#image',
+			iconImageHref: 'img/pin.svg',
+			hideIconOnBalloonOpen: false,
+			iconImageSize: [24, 24],
+			iconImageOffset: [-12, -24],
+			balloonOffset: [0, -24]
+		});
+		myMap.controls.remove('searchControl');
+		myMap.behaviors.disable('scrollZoom');
+		myMap.geoObjects.add(myPlacemark1);
+
+	}
+});
 </script>
 
 </body>
