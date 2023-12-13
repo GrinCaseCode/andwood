@@ -1042,6 +1042,10 @@
 	.breadcrumb-item:not(:last-child)::after {
 		margin: 0 8px;
 	}
+	.catalog-top {
+		padding-top: 30px;
+		padding-bottom: 35px;
+	}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
