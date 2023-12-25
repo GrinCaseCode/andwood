@@ -1930,3 +1930,73 @@ form {
 .item-color {
 	position: relative;
 }
+.sub-tabs {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.sub-tabs li {
+	margin-right: 12px;
+}
+.sub-tabs a {
+	padding: 7px 26px;
+	color: #000;
+	border-radius: 40px;
+	border: 1px solid #D9D9D9;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 140%;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.sub-tabs a:hover,
+.sub-tabs .active a {
+	background: #D9D9D9;
+}
+.page-catalog .sub-tabs {
+	margin-top: 31px;
+}
+.feature-catalog {
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+}
+.feature-catalog strong {
+	min-width: 133px;
+	font-weight: 400;
+}
+.feature-catalog .color-list {
+	gap: 10px;
+	margin: 0;
+}
+.col-lg-3 .item-catalog__title {
+	margin-bottom: 18px;
+	font-weight: 400;
+}
+.item-catalog__features {
+	padding-bottom: 9px;
+}
+.col-lg-3 .item-catalog .link-page {
+	margin-top: auto;
+}
+.color-list {
+    gap: 30px;
+}
+.card-feature {
+	font-weight: 400;
+	margin-bottom: 5px;
+	display: flex;
+	align-items: center;
+}
+.card-feature > *:first-child {
+	width: 58%;
+}
+.features__wrap {
+	padding-bottom: 25px;
+}
